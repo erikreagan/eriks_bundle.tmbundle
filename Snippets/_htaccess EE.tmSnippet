@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;IfModule mod_rewrite.c&gt;
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.$1\.${2:com}$ [NC]
+RewriteRule ^(.*)\$ http://$1.$2/\$1 [R=301,L]
+
+RewriteCond \$1 !\.(css|js|gif|jpe?g|png) [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)\$ /index.php?\$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^css/(.*)\.css /\?css=embeds/\$1 [L]
+&lt;/IfModule&gt;</string>
+	<key>name</key>
+	<string>.htaccess EE</string>
+	<key>tabTrigger</key>
+	<string>eehtaccess</string>
+	<key>uuid</key>
+	<string>D92B9B23-A317-43AD-BD16-483B8CBD807F</string>
+</dict>
+</plist>

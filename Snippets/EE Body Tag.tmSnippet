@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;body{if embed:body_id} id="{embed:body_id}"{/if}{if embed:body_class} class="{embed:body_class}"{/if}&gt;</string>
+	<key>name</key>
+	<string>EE Body Tag</string>
+	<key>tabTrigger</key>
+	<string>bodee</string>
+	<key>uuid</key>
+	<string>1845EFA4-AB33-4E20-81E4-0D56761281F1</string>
+</dict>
+</plist>

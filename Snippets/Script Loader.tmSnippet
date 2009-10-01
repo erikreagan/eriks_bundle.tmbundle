@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>// Javascript File Loader for $1.com by Erik Reagan of Ideal Design Firm, LLC
+// load function
+function loadFile(script){document.write('&lt;script type="text/javascript" src="'+script+'"&gt;&lt;\/script&gt;');}
+// name the files to load
+var files=new Array("jquery","control"$2);
+// load each file listed in the array
+for(var i=0;i&lt;files.length;i++){loadFile("/$3"+files[i]+".js");};</string>
+	<key>name</key>
+	<string>Script Loader</string>
+	<key>tabTrigger</key>
+	<string>scriptloader</string>
+	<key>uuid</key>
+	<string>2D57971E-ABD5-4D8B-9A5E-A1C3E80E3585</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;${1:ul}${2: id="${3:id_name}"${4: class="${5:class_name}"}}&gt;
+	&lt;li&gt;${6:&lt;a href="#"&gt;$7&lt;/a&gt;}&lt;/li&gt;$0
+&lt;/$1&gt;</string>
+	<key>name</key>
+	<string>Unordered List</string>
+	<key>tabTrigger</key>
+	<string>list</string>
+	<key>uuid</key>
+	<string>BC0F0EA0-E964-4D6B-A299-D6F77D14AEB6</string>
+</dict>
+</plist>

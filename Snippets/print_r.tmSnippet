@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>echo "&lt;pre&gt;";
+print_r($1);
+echo "&lt;/pre&gt;";
+${2:exit;}
+$0</string>
+	<key>name</key>
+	<string>print_r</string>
+	<key>tabTrigger</key>
+	<string>printr</string>
+	<key>uuid</key>
+	<string>E73C31DC-06FE-4556-925A-3ED5725A0B95</string>
+</dict>
+</plist>

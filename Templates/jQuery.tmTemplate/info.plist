@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>[ -f "$TM_NEW_FILE" ] ||  perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' &lt;jquery.js &gt;"$TM_NEW_FILE"</string>
+	<key>extension</key>
+	<string>js</string>
+	<key>name</key>
+	<string>jQuery</string>
+	<key>tabTrigger</key>
+	<string>newjquery</string>
+	<key>uuid</key>
+	<string>5358A1D6-EEB1-4466-ADCB-F6825A3F8E49</string>
+</dict>
+</plist>

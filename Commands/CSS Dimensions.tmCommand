@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env php 
+&lt;?php
+
+// Grab &amp; define our string
+if ($_ENV['TM_SELECTED_TEXT'] == "") {
+   $string = $_ENV['TM_CURRENT_LINE'];
+} else {
+   $string = $_ENV['TM_SELECTED_TEXT'];
+}
+
+// Callback to convert dimensions within an img tag
+function define_array($matches) {
+   $array = preg_split('/[,|;|:]/',preg_replace('/\s/','',$matches[0]));
+   $string = "width=\"".$array[0]."\" height=\"".$array[1]."\"";
+   return $string;
+}
+
+// Figure out how we need to output the results
+if (preg_match('/&lt;img/',$_ENV['TM_CURRENT_LINE'])) {
+   
+   // Return the string based on our callback
+   $result = preg_replace_callback('/(\d*)[,|;|:](\d*)/','define_array',$string);
+
+} else {
+   
+   // Turn string into array
+   
+   $array = preg_split('/[,|;|:]/',preg_replace('/\s/','',$string));
+   $result = "\twidth: ".$array[0]."px;\n\theight: ".$array[1]."px;";
+   
+}
+
+echo $result
+
+?&gt;</string>
+	<key>fallbackInput</key>
+	<string>line</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>^@d</string>
+	<key>name</key>
+	<string>CSS Dimensions</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>uuid</key>
+	<string>ACDB753E-F790-4527-8D3F-6569F0E07A51</string>
+</dict>
+</plist>

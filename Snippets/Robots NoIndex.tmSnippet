@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;meta name="robots" value="noindex,nofollow"/&gt;$0</string>
+	<key>name</key>
+	<string>Robots NoIndex</string>
+	<key>tabTrigger</key>
+	<string>noindex</string>
+	<key>uuid</key>
+	<string>60A57A0C-8941-45F3-846C-783DC8DF25A0</string>
+</dict>
+</plist>

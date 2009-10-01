@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/*******************************
+    Site wide classes
+ ******************************/
+
+.floatl { float: left; }
+.floatr { float: right; } 
+.clear { clear: both; }
+.hidden { display: none; }
+.centered { margin: 0 auto; text-align: center }
+img.floatl { margin: 0 10px 10px 0; }
+img.floatr { margin: 0 0 10px 10px; }
+.alert { background: #ffebe8; border: 1px solid #b24444; padding: 10px; color: #000; }
+.notice { background: #fcfdbe; border: 1px solid #8d8d74; padding: 10px; color: #000; }
+.success { background: #c3e1bf; border: 1px solid #315733; padding: 10px; color: #000; }</string>
+	<key>name</key>
+	<string>CSS Classes</string>
+	<key>tabTrigger</key>
+	<string>classes</string>
+	<key>uuid</key>
+	<string>5514F307-5686-463D-B5BC-31D11C7FE02F</string>
+</dict>
+</plist>
