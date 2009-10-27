@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env php
+&lt;?php
+
+$string_to_array = explode("\n",file_get_contents('php://stdin'));
+
+foreach ($string_to_array as $line) {
+   if(preg_match("/(\s+)\[/", $line))
+   {
+      $key     = preg_replace("/(\s+\[(.*)\].+)/","$2",$line);
+      $value   = preg_replace("/.+(=&gt; (.*)\n?)/","$2",$line);
+      $array_result[$key] = $value;
+   }
+}
+
+echo serialize($array_result);
+
+?&gt;</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>^@S</string>
+	<key>name</key>
+	<string>Serialize Data</string>
+	<key>output</key>
+	<string>replaceDocument</string>
+	<key>uuid</key>
+	<string>0D40256D-3FE5-4310-BC2C-239D00AA025C</string>
+</dict>
+</plist>

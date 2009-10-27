@@ -9,6 +9,7 @@
 			<string>93B56AD7-0FF1-4EA1-911A-E32E15A5791F</string>
 			<string>8833EFBD-8452-40C1-8B46-16FF9FCAE18D</string>
 			<string>29373E42-C637-4E6E-87AD-27D1BE4B0323</string>
+			<string>B8FA878C-A205-4FA0-A7D2-66ADD6A67779</string>
 			<string>E73C31DC-06FE-4556-925A-3ED5725A0B95</string>
 		</array>
 		<key>submenus</key>
@@ -42,12 +43,23 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>0A149EB8-8E0B-4FEA-A4FF-6BA70CE49564</string>
 					<string>ACDB753E-F790-4527-8D3F-6569F0E07A51</string>
 					<string>5514F307-5686-463D-B5BC-31D11C7FE02F</string>
 					<string>33199A6F-CB3C-409F-A4D6-FB3776494091</string>
 				</array>
 				<key>name</key>
 				<string>CSS Snippets</string>
+			</dict>
+			<key>B8FA878C-A205-4FA0-A7D2-66ADD6A67779</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>5F33FF65-F8B3-46DB-A7C4-77BB74918F95</string>
+					<string>0D40256D-3FE5-4310-BC2C-239D00AA025C</string>
+				</array>
+				<key>name</key>
+				<string>Database Stuff</string>
 			</dict>
 		</dict>
 	</dict>
@@ -69,6 +81,9 @@
 		<string>2D57971E-ABD5-4D8B-9A5E-A1C3E80E3585</string>
 		<string>33199A6F-CB3C-409F-A4D6-FB3776494091</string>
 		<string>0088FAB1-862F-46ED-9CCC-2942CA2C7799</string>
+		<string>0A149EB8-8E0B-4FEA-A4FF-6BA70CE49564</string>
+		<string>5F33FF65-F8B3-46DB-A7C4-77BB74918F95</string>
+		<string>0D40256D-3FE5-4310-BC2C-239D00AA025C</string>
 	</array>
 	<key>uuid</key>
 	<string>8553E527-6926-4AF8-96F0-DB89B4B40DD4</string>

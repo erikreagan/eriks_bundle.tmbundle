@@ -3,16 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>echo "&lt;pre&gt;";
-print_r(\$$1);
-echo "&lt;/pre&gt;";
-${2:exit;}
+	<string>a:active { outline: none; }
+a:focus { -moz-outline-style: none; }
+
 $0</string>
 	<key>name</key>
-	<string>print_r</string>
+	<string>Firefox Link Outlines</string>
 	<key>tabTrigger</key>
-	<string>printr</string>
+	<string>ffa</string>
 	<key>uuid</key>
-	<string>E73C31DC-06FE-4556-925A-3ED5725A0B95</string>
+	<string>0A149EB8-8E0B-4FEA-A4FF-6BA70CE49564</string>
 </dict>
 </plist>
