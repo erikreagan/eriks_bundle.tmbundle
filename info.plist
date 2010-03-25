@@ -11,6 +11,10 @@
 			<string>29373E42-C637-4E6E-87AD-27D1BE4B0323</string>
 			<string>B8FA878C-A205-4FA0-A7D2-66ADD6A67779</string>
 			<string>E73C31DC-06FE-4556-925A-3ED5725A0B95</string>
+			<string>23F8A60A-6B0B-403E-80BD-6A0B1B446C01</string>
+			<string>6011B95D-265E-41F0-960A-818091F77353</string>
+			<string>8A229A2D-97C8-4E81-8B96-0ABD64048F23</string>
+			<string>27CA75CB-DF78-4E71-A6EA-43217B08C868</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -25,16 +29,31 @@
 				<key>name</key>
 				<string>Server</string>
 			</dict>
+			<key>637159EF-68B3-4996-B541-C855D5EE766C</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>CD206F62-6222-4B05-AA19-C2134215748F</string>
+					<string>79A0421C-C9F4-4FF1-A47F-30CA67894386</string>
+					<string>756A952C-E42A-446D-ADA2-C58ED72FA591</string>
+					<string>31734D25-ED03-440A-8ED1-4F93062EA706</string>
+					<string>380E9624-B14C-476E-968C-84275515401C</string>
+				</array>
+				<key>name</key>
+				<string>HTML Elements</string>
+			</dict>
 			<key>8833EFBD-8452-40C1-8B46-16FF9FCAE18D</key>
 			<dict>
 				<key>items</key>
 				<array>
+					<string>637159EF-68B3-4996-B541-C855D5EE766C</string>
 					<string>60A57A0C-8941-45F3-846C-783DC8DF25A0</string>
 					<string>BC0F0EA0-E964-4D6B-A299-D6F77D14AEB6</string>
 					<string>1845EFA4-AB33-4E20-81E4-0D56761281F1</string>
 					<string>6858753D-5906-4A5B-8237-4BD588891BA9</string>
 					<string>2D57971E-ABD5-4D8B-9A5E-A1C3E80E3585</string>
 					<string>0088FAB1-862F-46ED-9CCC-2942CA2C7799</string>
+					<string>33ADEB17-7250-4FE1-BA25-8F9A432571E2</string>
 				</array>
 				<key>name</key>
 				<string>General Markup</string>
@@ -43,6 +62,7 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>C28A2A7C-6C0C-43DC-A1C9-EFF618E2CD2A</string>
 					<string>0A149EB8-8E0B-4FEA-A4FF-6BA70CE49564</string>
 					<string>ACDB753E-F790-4527-8D3F-6569F0E07A51</string>
 					<string>5514F307-5686-463D-B5BC-31D11C7FE02F</string>
@@ -67,6 +87,7 @@
 	<string>Eriks Bundle</string>
 	<key>ordering</key>
 	<array>
+		<string>8A229A2D-97C8-4E81-8B96-0ABD64048F23</string>
 		<string>F2EA8C24-1588-4CC2-88E7-58629FAC00FB</string>
 		<string>D92B9B23-A317-43AD-BD16-483B8CBD807F</string>
 		<string>60A57A0C-8941-45F3-846C-783DC8DF25A0</string>
@@ -84,6 +105,15 @@
 		<string>0A149EB8-8E0B-4FEA-A4FF-6BA70CE49564</string>
 		<string>5F33FF65-F8B3-46DB-A7C4-77BB74918F95</string>
 		<string>0D40256D-3FE5-4310-BC2C-239D00AA025C</string>
+		<string>23F8A60A-6B0B-403E-80BD-6A0B1B446C01</string>
+		<string>6011B95D-265E-41F0-960A-818091F77353</string>
+		<string>33ADEB17-7250-4FE1-BA25-8F9A432571E2</string>
+		<string>CD206F62-6222-4B05-AA19-C2134215748F</string>
+		<string>79A0421C-C9F4-4FF1-A47F-30CA67894386</string>
+		<string>756A952C-E42A-446D-ADA2-C58ED72FA591</string>
+		<string>31734D25-ED03-440A-8ED1-4F93062EA706</string>
+		<string>380E9624-B14C-476E-968C-84275515401C</string>
+		<string>27CA75CB-DF78-4E71-A6EA-43217B08C868</string>
 	</array>
 	<key>uuid</key>
 	<string>8553E527-6926-4AF8-96F0-DB89B4B40DD4</string>

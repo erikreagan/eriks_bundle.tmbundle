@@ -9,7 +9,11 @@ RewriteBase /
 RewriteCond %{HTTP_HOST} ^www\.$1\.${2:com}$ [NC]
 RewriteRule ^(.*)\$ http://$1.$2/\$1 [R=301,L]
 
-RewriteCond \$1 !\.(css|js|gif|jpe?g|png) [NC]
+${3:RewriteCond %{REQUEST_FILENAME\} !-f
+RewriteCond %{REQUEST_FILENAME\} !-d
+RewriteRule ^${4:manage}/? ${5:admin.php} [L]
+
+}RewriteCond \$1 !\.(css|js|gif|jpe?g|png) [NC]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)\$ /index.php?\$1 [L]

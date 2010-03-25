@@ -7,13 +7,14 @@
     Site wide classes
  ******************************/
 
-.floatl { float: left; }
-.floatr { float: right; } 
+.left { float: left; }
+.right { float: right; } 
 .clear { clear: both; }
 .hidden { display: none; }
 .centered { margin: 0 auto; text-align: center }
-img.floatl { margin: 0 10px 10px 0; }
-img.floatr { margin: 0 0 10px 10px; }
+.block { display: block; }
+img.left { margin: 0 10px 10px 0; }
+img.right { margin: 0 0 10px 10px; }
 .alert { background: #ffebe8; border: 1px solid #b24444; padding: 10px; color: #000; }
 .notice { background: #fcfdbe; border: 1px solid #8d8d74; padding: 10px; color: #000; }
 .success { background: #c3e1bf; border: 1px solid #315733; padding: 10px; color: #000; }</string>
